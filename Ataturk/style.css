@@ -292,6 +292,43 @@ button {
         right: 0;
     }
 
+    .about img {
+        display: block;
+        height: 80px;
+        width: 220px;
+    }
+
+    .about .about-text {
+        width: 350px;
+    }
+
+    .about .about-text h2 {
+        color: black;
+        font-size: 45px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    
+    .about .about-text h5 {
+        color: black;
+        letter-spacing: 1px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+        font-weight: 550;
+    }
+
+    .service .title {
+        color: black;
+        font-size: 65px;
+        width: 930px;
+        padding-right: 270px;
+        text-align: center;
+        position: relative;
+
+    }
+
 }
 
 .about {
@@ -304,7 +341,7 @@ button {
 
 .about img {
     height: auto;
-    width: 430px;
+    max-width: 430px;
 }
 
 .about-text {
